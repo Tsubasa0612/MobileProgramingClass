@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2GY-ux-Bt9">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - 質問１-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFn-9X-qTX">
+                                <rect key="frame" x="54" y="327" width="85" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="はい">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PlS-qa-BmM" kind="push" id="nSB-Cj-O5I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DR-Ya-Sbm">
+                                <rect key="frame" x="170" y="326" width="101" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="いいえ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="elX-TW-FE3" kind="push" id="hw0-07-gPm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたは 几帳面だと思いますか？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="KL9-7b-nef">
+                                <rect key="frame" x="20" y="115" width="280" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7061491102691464" green="1" blue="0.71589240060879034" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="質問１" id="aiY-2o-vHe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="164"/>
+        </scene>
+        <!--View Controller - 質問２-->
+        <scene sceneID="ezh-nV-fmS">
+            <objects>
+                <viewController id="elX-TW-FE3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yqr-lq-6vQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="5fS-A0-LBE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kxe-9W-x0U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたは のんびりとしたタイプ ですか？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="m27-Hs-ZEs">
+                                <rect key="frame" x="20" y="115" width="280" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79e-Gh-alI">
+                                <rect key="frame" x="49" y="328" width="94" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="はい">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="j4k-sB-pZC" kind="push" id="Nxi-YV-5cZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa2-vP-iBz">
+                                <rect key="frame" x="170" y="326" width="101" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="いいえ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Tpv-o5-uS7" kind="push" id="6W3-Pw-nzx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78132926291638372" green="1" blue="0.80165058633869901" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="質問２" id="740-6j-odW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TsX-Mf-Qak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1218" y="973"/>
+        </scene>
+        <!--View Controller - 質問２-->
+        <scene sceneID="eZr-bI-Bf1">
+            <objects>
+                <viewController id="PlS-qa-BmM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aTv-BX-Ltb"/>
+                        <viewControllerLayoutGuide type="bottom" id="DyY-CA-lSy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b2y-mT-k1Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたは なにごとも 正確にやりたい タイプですか？" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="5DK-DY-Ks4">
+                                <rect key="frame" x="20" y="115" width="280" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lu-J8-fGW">
+                                <rect key="frame" x="49" y="328" width="94" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="はい">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MgX-WR-QwA" kind="push" id="RVT-4x-35s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vro-OF-aQ8">
+                                <rect key="frame" x="170" y="326" width="101" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="20"/>
+                                <state key="normal" title="いいえ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="k3R-eB-fD3" kind="push" id="ThT-Tk-VQr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76594290230006568" green="1" blue="0.79233678484391479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="質問２" id="xQn-yS-1pl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEi-3y-WP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1218" y="-702"/>
+        </scene>
+        <!--View Controller - 診断結果-->
+        <scene sceneID="Uyn-zJ-7lz">
+            <objects>
+                <viewController id="k3R-eB-fD3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e4v-Qt-vlI"/>
+                        <viewControllerLayoutGuide type="bottom" id="1t0-Hg-2ky"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qih-ng-CdO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhm-UC-ZJE">
+                                <rect key="frame" x="44" y="70" width="233" height="428"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">あなたは、O型です。
+
+A型の相手との相性
+「主従」あなたがリードし相手が従う関係になりがちだが、息の合うコンビ。
+
+B型の相手との相性
+「開放」なんでも話せる気楽な関係。ただ時々相手の気まぐれに戸惑うかも。
+
+O型の相手との相性
+「不和」根本的に理解できず、疎外感を味わう場合が多い。距離をおいて。
+
+AB型の相手との相性
+「火花」考えかたは、一致するが、同じ戦列にいると激しく競い合う傾向あり。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76594290230006568" green="1" blue="0.79233678484391479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="診断結果" id="eV7-st-NKr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4J-el-qku" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="-372"/>
+        </scene>
+        <!--View Controller - 診断結果-->
+        <scene sceneID="Aa6-vz-o4P">
+            <objects>
+                <viewController id="j4k-sB-pZC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y6w-lg-Vhb"/>
+                        <viewControllerLayoutGuide type="bottom" id="QFx-08-6MS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Bc-0w-Nv4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qi9-CI-vKL">
+                                <rect key="frame" x="44" y="70" width="233" height="428"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">あなたは、B型です。
+
+Ａ型の相手との相性
+「疲労」しっかりフォローしてくれるが気疲れする相手。文句を言われやすい。
+
+Ｂ型の相手との相性
+「楽観」どちらも慎重さに欠けるので、ともに行動すると脱線する恐れがある。
+
+Ｏ型の相手との相性
+「理解」話しが通じやすく、欠点を補ってくれる。友人として最高の相性。
+
+ＡＢ型の相手との相性
+「情熱」おたがいに好意を感じ、電撃的に結ばれることも。深く愛される。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76594290230006568" green="1" blue="0.79233678484391479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="診断結果" id="Jw0-Cq-WyW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgr-0g-lJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="620"/>
+        </scene>
+        <!--View Controller - 診断結果-->
+        <scene sceneID="5tO-LH-OQ5">
+            <objects>
+                <viewController id="Tpv-o5-uS7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RQq-J8-4lN"/>
+                        <viewControllerLayoutGuide type="bottom" id="zDg-5X-uON"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Anf-jf-RBO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="UFM-kV-MvN">
+                                <rect key="frame" x="44" y="70" width="233" height="428"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">あなたは、AB型です。
+
+Ａ型の相手との相性
+「刺激」尊敬できる相手で、情熱を感じたりもしやすいが、口論の恐れもある。
+
+Ｂ型の相手との相性
+「同調」波長が合い、相手に暖かく包まれて心がなごむ。ツーカーの間柄。
+
+Ｏ型の相手との相性
+「創造」仕事や活動面で手を組むと成果が大きい。新しいものを生み出せる。
+
+ＡＢ型の相手との相性
+「反発」どこまでいっても平行線。ホンネではつきあえない。つかず離れずが吉。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76594290230006568" green="1" blue="0.79233678484391479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="診断結果" id="sdz-eR-njl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1w-UR-eer" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="1279"/>
+        </scene>
+        <!--View Controller - 診断結果-->
+        <scene sceneID="3sh-Wr-9Oa">
+            <objects>
+                <viewController id="MgX-WR-QwA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WHw-gz-V6a"/>
+                        <viewControllerLayoutGuide type="bottom" id="d8R-iQ-WWb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pHi-Ne-0X5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIr-Wi-M6N">
+                                <rect key="frame" x="44" y="70" width="233" height="428"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">あなたは、A型です。
+
+A型の相手との相性
+「低迷」共通点が多いが、お互いに神経質なため、イラ立つこともある。
+
+B型の相手との相性
+「不調」相手の奔放さを羨ましく思うと同時に不安も感じる。なじみにくい。
+
+O型の相手との相性
+「依存」優しく見守ってくれる。甘えられるが、細かいことを言うと対立。
+
+AB型の相手との相性
+「信頼」頼れる相手でよいアドバイスや協力を得られる。愛情関係も安定的。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76594290230006568" green="1" blue="0.79233678484391479" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="診断結果" id="k8F-jO-tmP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="scP-hC-Bv8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="-1031"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zYN-Qu-loC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2GY-ux-Bt9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CS1-1Z-N2T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="UJQ-Ov-tiJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LfP-w9-x3y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="164"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
